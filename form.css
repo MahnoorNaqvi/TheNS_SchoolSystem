@@ -1,0 +1,30 @@
+
+.reg{
+     font-family: 'Piedra', cursive;
+ letter-spacing: 5px;    
+     font-size: 45px;
+ }
+
+ .wel{
+
+	
+ letter-spacing: 5px;    
+     font-size: 45px;
+	margin-top: 10px;
+ }
+
+
+
+#forum{
+    background-image:  linear-gradient(rgb(67, 190, 206),rgba(140, 215, 250, 0.932));
+    box-shadow: 0 0 20px 0 rgba(13, 164, 184, 0.589);
+    padding:50px 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px){
+
+	.reg{
+		font-size: 10px !important;
+	}
+}

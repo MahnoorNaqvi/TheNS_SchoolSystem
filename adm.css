@@ -1,0 +1,234 @@
+/* ////////////nabnar//////// */
+.header{
+	width: 100%;
+	height: 100vh;
+	 background-image:  linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
+   /* clip-path: polygon(100% 0% ,100% 77% ,50% 100% , 0 75%, 0 0); */
+   position: relative; 
+   background-image: url("img/mainpic.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+/* ///////////////package///////////// */
+
+.pricing{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    position: relative;
+     
+}
+
+
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .2;
+	z-index: -1
+    background: linear-gradient(160deg, #16c9f6 55% ,#fff 0%);
+
+}
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #008080;
+}
+
+.card{
+    transition: 0.4s ease;
+    text-align: center;
+    margin-bottom: 20px !important;
+    box-shadow: 0 0 20px 0 rgba(10, 157, 255, 0.925);}
+    
+
+.card:hover{
+    transform: translateY(-20px);
+	background: linear-gradient(to right, #008080 100%, #3ccdbb 0%, #16c9f6 100%);	
+	
+
+
+}
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: #f5f5f5 !important;
+}
+.card-body{
+    padding: 30px 0 !important;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.589);
+
+
+}
+.card-body p{
+     margin: 10px 0;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 1.6;
+     margin-left: 20px;
+     margin-right: 20px;
+     height: 150px;
+}
+.card-footer{
+    background-color: #f5f5f5 !important;
+    padding: 30px 0 !important;
+ 
+}
+#pkg3{
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.card-footer a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: #008080 ;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.589);
+}
+.card-footer a:hover{
+    color: #000000;
+    background: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgba(72, 193, 241, 0.863);
+}
+
+
+/* //////////Fees strctre/////////// */
+
+.table-hover :hover{
+  background-color: #008080;
+  color: #fff;
+  font-weight: 400;
+}
+.table{
+    margin-bottom: 50px !important;
+}
+
+.fees{
+   font-family: 'Piedra', cursive;
+letter-spacing: 5px;    
+    font-size: 45px;
+}
+.feess{
+   font-family: 'Piedra', cursive;
+letter-spacing: 5px;    
+    font-size: 40px;
+}
+
+
+/* /////////////////T and C/////////////////// */
+
+.cond{
+	
+	padding:50px 0;
+	margin-bottom: 50px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	box-shadow: 0 0 20px 0 rgba(2, 236, 253, 0.404);
+	/* background-image:  linear-gradient(rgba(251, 255, 0, 0.3),rgba(255, 0, 179, 0.3)); */
+	color: rgb(247, 247, 247);
+  /* background: #000000; */
+  background-image:  linear-gradient(rgb(19, 142, 158),rgba(49, 137, 238, 0.932));
+
+}
+.cond:hover{
+	
+	transform: translateY(-20px);
+	/* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);	 */
+	background-image:  linear-gradient(rgb(81, 149, 228),rgba(140, 215, 250, 0.932));
+	box-shadow: 0 0 20px 0 rgba(13, 164, 184, 0.589);
+	
+}
+
+.headings{
+	margin-bottom: 50px;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+.font{
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+	'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-top: 10px;
+
+}
+.why{
+width: 100%;
+	height: 100px;
+	 background-image:  linear-gradient(#00ffff, #1e90ff);
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+font-family: 'Piedra', cursive;
+letter-spacing: 2px;	
+  font-size: 30px;
+  margin-top: 30px !important;
+}
+
+.say{
+	padding-top: 50px !important;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+
+.fees{
+  font-size: 30px !important;
+}
+.money{
+  font-size: 25px !important;
+}
+.card-header{
+  font-size: 25px !important;
+}
+.feess{
+  font-size: 30px !important;
+}
+.payment{
+  font-size: 12px !important;
+}
+.reg{
+  font-size: 15px !important;
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+
+
+
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+
